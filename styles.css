@@ -1,0 +1,108 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif;  */
+    font-family: 'Montserrat', sans-serif;
+   
+   margin: 0;
+}
+
+h2{
+    text-align: center;
+    color: white; 
+    font-weight:400;
+    width: 650px;
+}
+
+.navbar {
+    background-image: linear-gradient(to top,rgb(2, 2, 2), rgb(83, 83, 83));
+    overflow: hidden;
+    text-align: center;
+    
+    
+}
+
+
+.navbar a  {    /* Style for the links of navigation bar */
+    display: inline-block;
+    list-style: none;
+    color: whitesmoke;
+    padding: 20px 20px;
+    text-decoration: none;
+    
+
+ 
+}
+
+.navbar a:hover{    /*Style when hovering over a link*/
+    
+    background-image: linear-gradient(to bottom,rgb(231, 230, 230), rgba(151, 151, 151, 0.541));
+    color: black;
+}
+
+.homemain{
+    background-image: linear-gradient(to bottom,rgb(13, 18, 34), rgba(70, 79, 119, 0.774));
+    padding: 40px 20px;
+    
+    
+}
+
+.homemain h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 90px;
+    padding-left: 5%;
+    padding-top: 10px;
+    margin-bottom:0;
+    
+    
+    
+}
+
+.homemain h2{
+    float: left;
+    text-shadow: 2px 2px 4px #000000;
+    width: 650px;
+    padding-left: 20%;
+    padding-right:50px;
+    padding-top: 130px;
+}
+
+.homemain h3{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 6%;
+}
+
+img {
+    display: block;
+    border: 1px solid rgba(187, 184, 184, 0.438);
+    max-width: 100%;
+    width: clamp(100px,30%,400px);
+    border-radius: 30%;
+    margin-bottom: 5%;
+    
+
+}
+
+.description {
+    padding:5%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgb(1, 2, 5);
+    
+}
+
+.description h2{
+    padding-left: 100px;
+
+}
+
+
+
+.footer{
+    padding:10px;
+    background-color: hsl(225, 67%, 1%);
+    color: white;
+    text-align: center;
+}
+
+
