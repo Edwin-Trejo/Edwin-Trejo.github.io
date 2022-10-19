@@ -39,8 +39,8 @@ h2{
 }
 
 .homemain{
-    background-image: linear-gradient(to bottom,rgb(13, 18, 34), rgba(70, 79, 119, 0.774));
-    padding: 40px 20px;
+    background-image: linear-gradient(to bottom,rgb(42, 52, 84), rgba(70, 79, 119, 0.774));
+    padding: 20px 10px;
     
     
 }
@@ -61,7 +61,7 @@ h2{
     float: left;
     text-shadow: 2px 2px 4px #000000;
     width: 650px;
-    padding-left: 20%;
+    padding-left: 13%;
     padding-right:50px;
     padding-top: 130px;
 }
@@ -77,24 +77,31 @@ img {
     border: 1px solid rgba(187, 184, 184, 0.438);
     max-width: 100%;
     width: clamp(100px,30%,400px);
-    border-radius: 30%;
+    border-radius: 35%;
     margin-bottom: 5%;
+    
     
 
 }
 
 .description {
-    padding:5%;
+    padding:3%;
     color: white;
     text-shadow: 2px 2px 4px #000000;
     background-color: rgb(1, 2, 5);
     
 }
 
-.description h2{
-    padding-left: 100px;
-
+.description h1{
+    padding-left: 11%;
 }
+
+.description h2{
+    padding-left: 13%;
+    text-align: left;
+    width: 75%;
+
+} 
 
 
 
