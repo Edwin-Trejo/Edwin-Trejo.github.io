@@ -113,3 +113,16 @@ img {
 }
 
 
+/* CONTACT ME PAGE */
+
+.contactmain{
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(42, 52, 84), rgba(70, 79, 119, 0.774));
+    padding: 20px 30px;
+    color: white;
+    padding-bottom: 30%;
+}
+
+
+
+
