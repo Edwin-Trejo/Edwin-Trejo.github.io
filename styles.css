@@ -61,7 +61,7 @@ h2{
     float: left;
     text-shadow: 2px 2px 4px #000000;
     width: 650px;
-    padding-left: 13%;
+    padding-left: 16%;
     padding-right:5%;
     padding-top: 10%;
 }
@@ -84,9 +84,7 @@ img {
 
 }
 
-/* .homemain home_row{
-    padding-left: 13%;
-} */
+
 
 .description {
     padding:3%;
