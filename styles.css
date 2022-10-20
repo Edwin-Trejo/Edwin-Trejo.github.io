@@ -62,8 +62,8 @@ h2{
     text-shadow: 2px 2px 4px #000000;
     width: 650px;
     padding-left: 13%;
-    padding-right:50px;
-    padding-top: 130px;
+    padding-right:5%;
+    padding-top: 10%;
 }
 
 .homemain h3{
@@ -83,6 +83,10 @@ img {
     
 
 }
+
+/* .homemain home_row{
+    padding-left: 13%;
+} */
 
 .description {
     padding:3%;
