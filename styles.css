@@ -123,6 +123,30 @@ img {
     padding-bottom: 30%;
 }
 
+/* END OF CONTACT ME PAGE */
+
+/* PROJECTS PAGE */
+
+.projectsmain{
+    background-image: linear-gradient(to bottom,rgb(42, 52, 84), rgba(70, 79, 119, 0.774));
+    padding: 20px 30px;
+    color: white;
+    padding-bottom: 30%;
+    text-align: left;
+    
+}
+
+.projectsmain h1{
+    text-align: center;
+}
+
+
+.project_row{
+    padding-left: 5%;
+    width: 75%;
+}
+
+/* END OF PROJECTS PAGE */
 
 
 
