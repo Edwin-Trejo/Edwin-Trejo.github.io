@@ -132,7 +132,13 @@ img {
     padding: 20px 30px;
     color: white;
     padding-bottom: 30%;
+    
+}
+.project_row{
     text-align: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    width: 70%;
     
 }
 
@@ -140,11 +146,13 @@ img {
     text-align: center;
 }
 
-
-.project_row{
-    padding-left: 5%;
-    width: 75%;
+.project_row h2{
+    text-align: left;
 }
+
+
+
+
 
 /* END OF PROJECTS PAGE */
 
