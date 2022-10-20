@@ -122,6 +122,9 @@ img {
     color: white;
     padding-bottom: 30%;
 }
+.contactmain a{
+    color:aqua;
+}
 
 /* END OF CONTACT ME PAGE */
 
@@ -131,12 +134,12 @@ img {
     background-image: linear-gradient(to bottom,rgb(42, 52, 84), rgba(70, 79, 119, 0.774));
     padding: 20px 30px;
     color: white;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
     
 }
 .project_row{
     text-align: left;
-    padding-left: 10%;
+    padding-left: 13%;
     padding-bottom: 5%;
     width: 70%;
     
@@ -144,11 +147,17 @@ img {
 
 .projectsmain h1{
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 90px;
 }
 
 .project_row h2{
     text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
 }
+
+
 
 
 
