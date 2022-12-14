@@ -5,14 +5,13 @@ body{
 
 html{
     background-image: linear-gradient(to bottom,rgb(42, 52, 84), rgba(70, 79, 119, 0.774));
-    font-family:sans-serif   
+    font-family:sans-serif
 }
 
 h2{
     text-align: center;
-    color: white; 
     font-weight:400;
-    width: 650px;
+    
 }
 
 .navbar {
@@ -41,34 +40,37 @@ h2{
     color: black;
 }
 
-/* .homemain{
-    padding: 20px 10px;
-    
-} */
+.homemain{
+    padding-left: 5%;
+    color: white;
+}
 
 .homemain h1{
-    color: white;
+    font-family: Arial, sans-serif;
+    
     text-shadow: 2px 2px 4px #000000;
-    font-size: 60px;
-    
-    
+    font-size: 70px;
     
 }
 
 .homemain h2{
-    /* float: left; */
     text-shadow: 2px 2px 4px #000000;
-    width: 75%;
-}
-
-.homemain h3{
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+    width: 70%;
+    
     
 }
 
+.homemain h3{
+    margin-top: -3%;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
 img {
-    /* display: block; */
     border: 1px solid rgba(187, 184, 184, 0.438);
     max-width: 100%;
     width: clamp(100px,30%,400px);
@@ -82,21 +84,22 @@ img {
 
 
 .description {
-    
+    padding: 5%;
     color: white;
     text-shadow: 2px 2px 4px #000000;
     background-color: rgb(1, 2, 5);
     
 }
 
-/* .description h1{
-    padding-left: 11%;
-} */
+.description h1{
+    font-size: 40px;
+    padding-left: 8% ;
+}
 
 .description h2{
     
     text-align: left;
-    width: 75%;
+    width: 70%;
 
 } 
 
