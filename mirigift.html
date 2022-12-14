@@ -9,90 +9,104 @@
         
     </head>
 
-    <div id="snow"></div>
+    <body>
+        <div id="snow"></div>
 
-    <div class="maincontent">
-        <div class="row">
-            <h1>Feliz Navidad Flaquita!</h1>
-            <h2>Estoy muy feliz y me emociona mucho pasar otra navidad contigo y tu familia, espero te guste este pequeñito detalle que te hice con mucho cariño</h2>
-            </br>
+        <div class="maincontent">
+            <div class="row">
+                <h1>Feliz Navidad Flaquita!</h1>
+                <h2>Estoy muy feliz y me emociona mucho pasar otra navidad contigo y tu familia, espero te guste este pequeñito detalle que te hice con mucho cariño</h2>
+                <h3> -Edwin</h3>
+                </br>
 
-            <img src="Media/Flightinfo.png" alt="flight booking" >
+                <img id="image" src="Media/Flightinfo.png" alt="flight booking" >
 
+                
 
+            </div>
         </div>
-    </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function(){
-    var script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
-    script.onload = function(){
-        particlesJS("snow", {
-            "particles": {
-                "number": {
-                    "value": 200,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#ffffff"
-                },
-                "opacity": {
-                    "value": 0.7,
-                    "random": false,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "size": {
-                    "value": 5,
-                    "random": true,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "line_linked": {
-                    "enable": false
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 5,
-                    "direction": "bottom",
-                    "random": true,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": true,
-                        "rotateX": 300,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "events": {
-                    "onhover": {
-                        "enable": false
-                    },
-                    "onclick": {
-                        "enable": false
-                    },
-                    "resize": false
-                }
-            },
-            "retina_detect": true
-        });
-    }
-    document.head.append(script);
-});
-    </script>
+        
+        <div>
+            <button type="button" onclick="show()" id="btnID"> Ya quiero mi regalo! </button>
+        </div>
 
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+        var script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+        script.onload = function(){
+            particlesJS("snow", {
+                "particles": {
+                    "number": {
+                        "value": 200,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "opacity": {
+                        "value": 0.7,
+                        "random": false,
+                        "anim": {
+                            "enable": false
+                        }
+                    },
+                    "size": {
+                        "value": 5,
+                        "random": true,
+                        "anim": {
+                            "enable": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 5,
+                        "direction": "bottom",
+                        "random": true,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": true,
+                            "rotateX": 300,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "events": {
+                        "onhover": {
+                            "enable": false
+                        },
+                        "onclick": {
+                            "enable": false
+                        },
+                        "resize": false
+                    }
+                },
+                "retina_detect": true
+            });
+        }
+        document.head.append(script);
+    });
+
+    function show() {
     
-    <div class="footer">
-        <h3> -Edwin</h3>
-    </div>
+
+    document.getElementById('image')
+            .style.display = "block";
+
+    document.getElementById('btnID')
+            .style.display = "none";
+    }
+        </script>
+
+</body>
     
 </html>

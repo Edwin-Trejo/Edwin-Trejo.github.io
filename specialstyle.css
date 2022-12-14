@@ -38,3 +38,22 @@ img {
     pointer-events: none;
     z-index: 1000;
 }
+
+#image{
+    display:none;
+}
+
+#btnID {
+    width: 75%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 30px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  div{
+    text-align:center;
+}
