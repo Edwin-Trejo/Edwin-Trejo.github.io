@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Feliz Navidad mi vida!</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width" , initial-scale=1>
+    <link rel="stylesheet" href="asa.css">
+
+</head>
+
+<body>
+    <audio id="audioPlayer">
+        <source src="Media/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+
+
+    <div id="snow"></div>
+    <div class="maincontent">
+        <div class="row">
+            <h1>Hoe-Hoe-Hoe!</h1>
+            <h2>Feliz navidad pinche asahelito, tome su regalo y callese un ratototote</h2>
+            <h3> -Takis</h3>
+            </br>
+
+            <img id="image" src="Media/steamcode.png" alt="Steam code">
+
+
+
+        </div>
+    </div>
+
+    <div>
+        <button type="button" onclick="show(); playAudio()" id="btnID"> Piquele pa su regalo </button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+            script.onload = function () {
+                particlesJS("snow", {
+                    "particles": {
+                        "number": {
+                            "value": 200,
+                            "density": {
+                                "enable": true,
+                                "value_area": 800
+                            }
+                        },
+                        "color": {
+                            "value": "#ffffff"
+                        },
+                        "opacity": {
+                            "value": 0.7,
+                            "random": false,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "size": {
+                            "value": 5,
+                            "random": true,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": false
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": 5,
+                            "direction": "bottom",
+                            "random": true,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": true,
+                                "rotateX": 300,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "events": {
+                            "onhover": {
+                                "enable": false
+                            },
+                            "onclick": {
+                                "enable": false
+                            },
+                            "resize": false
+                        }
+                    },
+                    "retina_detect": true
+                });
+            }
+            document.head.append(script);
+        });
+
+        function show() {
+
+
+            document.getElementById('image')
+                .style.display = "block";
+
+            document.getElementById('btnID')
+                .style.display = "none";
+        }
+
+        function playAudio() {
+            var audio = document.getElementById("audioPlayer");
+            audio.play();
+        }
+    </script>
+
+
+</body>
+
+</html>

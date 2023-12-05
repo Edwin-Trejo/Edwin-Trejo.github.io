@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    color: white; 
+    font-size:10vw;
+}
+h2{
+    text-align: center;
+    color: white; 
+    font-size:5vw;
+    
+}
+h3{
+    text-align: center;
+    color: white; 
+    font-size:3vw; 
+}
+
+html{
+    background-image: linear-gradient(#FAACA8,#DDD6F3);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+#image{
+    display:none;
+}
+
+#btnID {
+    width: 75%;
+    background-color: #bfb0f1; /* Green */
+    border: none;
+    color: white;
+    padding: 30px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  div{
+    text-align:center;
+}
+
