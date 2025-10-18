@@ -1627,3 +1627,16 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.skill-mf {
+  text-align: center;
+}
+.skill-mf h6,
+.skill-mf small {
+  text-align: center;
+  display: block;
+}
+
+.skill-mf p {
+  text-align: center;
+}
