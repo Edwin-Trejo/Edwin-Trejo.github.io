@@ -9,7 +9,7 @@ This site highlights some of my favorite projects, research experiences, and the
 ---
 
 ### 🚀 Live Website
-👉 [**Visit My Portfolio**](https://edwintrejo.github.io)  
+👉 [**Visit My Portfolio**](https://edwin-trejo.github.io)  
 
 ![Portfolio Preview](assets/img/preview.png)  
 *(screenshot of the homepage )*
