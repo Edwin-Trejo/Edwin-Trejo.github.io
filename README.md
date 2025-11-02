@@ -12,7 +12,7 @@ This site highlights some of my favorite projects, research experiences, and the
 👉 [**Visit My Portfolio**](https://edwintrejo.github.io)  
 
 ![Portfolio Preview](assets/img/preview.png)  
-*(screenshot of the homepage — feel free to replace this image with one from your site)*
+*(screenshot of the homepage )*
 
 ---
 
