@@ -54,8 +54,8 @@
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li class="dropdown"><a href="#"><span>Connect</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="https://www.linkedin.com/in/edwin-trejo19/">Linkedin</a></li>
@@ -80,7 +80,7 @@
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up"
         data-aos-delay="100">
         <h2>I am Edwin Trejo</h2>
-        <p><span class="typed" data-typed-items="AI/ML Engineer, Software Engineer, Programmer, Problem Solver"></span>
+        <p><span class="typed" data-typed-items="AI/ML Engineer, Software Engineer, Problem Solver"></span>
         </p>
       </div>
 
@@ -210,6 +210,109 @@
       </div>
     </section>
     <!-- End About Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Here you can find some of my projects, feel free to take a look!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">AI/ML</li>
+            <li data-filter=".filter-cyber">Cybersecurity</li>
+            <li data-filter=".filter-software">Software Engineer</li>
+            <li data-filter=".filter-research">Research</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/spotify-repo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Spotify Playlist Automation App</h4>
+                <p>Web app that classifies songs by genre using ML models and automatically sorts Liked Songs into
+                  playlists using the Spotify API.</p>
+                <a href="assets/img/spotify-repo.png" title="Github repository" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Edwin-Trejo/Automated-playlist-creator" title="More Details"
+                  class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cyber">
+              <img src="assets/img/Raspberrypi.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Network-wide ad blocker</h4>
+                <p>Network-wide ad blocker using Raspberry Pi Zero 2 W" + Pi-hole (DNS sinkhole) with custom blocklists
+                  and monitoring.</p>
+                <a href="assets/img/Raspberrypi.jpeg" title="Raspberry Pi Zero 2 W"
+                  data-gallery="portfolio-gallery-cyber" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Edwin-Trejo/raspberri-py-network-adblocker" title="More Details"
+                  class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> <!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+              <img src="assets\img\camping-companion-ss.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Portable Field Knowledge Server (Raspberry Pi)</h4>
+                <p>Designed and deployed an offline-first self-hosted knowledge server on Raspberry Pi Zero 2 W using Debian Linux, Nginx, and PHP-FPM.</p>
+                <a href="assets\img\camping-companion-ss.png" title="Camping companion wiki screenshot" data-gallery="portfolio-gallery-software" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Edwin-Trejo/offline-camp-companion" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> <!-- End Portfolio Item -->
+            <!-- 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-research">
+              <img src="assets/img/portfolio/research-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>HTTP Proxy Server with Caching</h4>
+                <p>Implemented a multithreaded HTTP proxy in Python supporting GET requests, caching with expiration, and concurrent connections using select().</p>
+                <a href="assets/img/portfolio/research-1.jpg" title="software 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>End Portfolio Item -->
+            <!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Dynamic Network Topology Generator</h4>
+                <p>Designed a JSON-driven Mininet environment to simulate network topologies for testing IDS performance and link behavior.</p>
+                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+              <img src="assets/img/website.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website portfolio</h4>
+                <p>This is the Github repository to my website portfolio, a space where I showcase my work.</p>
+                <a href="assets/img/website.png" title="Website portfolio" data-gallery="portfolio-gallery-software"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Edwin-Trejo/Edwin-Trejo.github.io" title="Github Repository"
+                  class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!--End Portfolio Item -->
+
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
 
 
     <!-- Resume Section -->
@@ -379,108 +482,6 @@
 
     </section> /Stats Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Here you can find some of my projects, feel free to take a look!</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">AI/ML</li>
-            <li data-filter=".filter-product">Cybersecurity</li>
-            <li data-filter=".filter-branding">Software Engineer</li>
-            <li data-filter=".filter-books">Research</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/spotify-repo.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Spotify Playlist Automation App</h4>
-                <p>Web app that classifies songs by genre using ML models and automatically sorts Liked Songs into
-                  playlists using the Spotify API.</p>
-                <a href="assets/img/spotify-repo.png" title="Github repository" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/Edwin-Trejo/Automated-playlist-creator" title="More Details"
-                  class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/Raspberrypi.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Network-wide ad blocker</h4>
-                <p>Network-wide ad blocker using Raspberry Pi Zero 2 W" + Pi-hole (DNS sinkhole) with custom blocklists
-                  and monitoring.</p>
-                <a href="assets/img/Raspberrypi.jpeg" title="Raspberry Pi Zero 2 W"
-                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/Edwin-Trejo/raspberri-py-network-adblocker" title="More Details"
-                  class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div> <!-- End Portfolio Item -->
-            <!--
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>POX Firewall Controller</h4>
-                <p>Built a custom firewall using the POX SDN controller to manage OpenFlow-enabled switches, filtering ICMP/ARP traffic and blocking external IP communication.</p>
-                <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/Edwin-Trejo/HydroPower_System_Simulation" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div> End Portfolio Item -->
-            <!-- 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>HTTP Proxy Server with Caching</h4>
-                <p>Implemented a multithreaded HTTP proxy in Python supporting GET requests, caching with expiration, and concurrent connections using select().</p>
-                <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>End Portfolio Item -->
-            <!--
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Dynamic Network Topology Generator</h4>
-                <p>Designed a JSON-driven Mininet environment to simulate network topologies for testing IDS performance and link behavior.</p>
-                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div> End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/website.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Website portfolio</h4>
-                <p>This is the Github repository to my website portfolio, a space where I showcase my work.</p>
-                <a href="assets/img/website.png" title="Website portfolio" data-gallery="portfolio-gallery-branding"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/Edwin-Trejo/Edwin-Trejo.github.io" title="Github Repository"
-                  class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-            <!--End Portfolio Item -->
-
-
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
     <!-- Services Section -->
     <section id="services" class="services section">
 
