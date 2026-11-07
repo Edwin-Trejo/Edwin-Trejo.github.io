@@ -5,13 +5,19 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Edwin Trejo | M.S. Computer Science</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description"
+    content="Edwin Trejo is a software engineer and AI/ML researcher (M.S. Computer Science, UTEP) working on machine learning, constrained optimization, and secure systems.">
+  <meta name="keywords"
+    content="Edwin Trejo, software engineer, AI, machine learning, optimization, cybersecurity, portfolio">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 
   <!-- Favicons -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/site.webmanifest">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -75,7 +81,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/35400.JPEG" alt="" data-aos="fade-in">
+      <img src="assets/img/35400.JPEG" alt="" role="presentation" data-aos="fade-in">
 
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up"
         data-aos-delay="100">
@@ -97,10 +103,9 @@
 
             <!-- Profile Card -->
             <div class="card shadow-sm border-0 p-3 text-center mb-5">
-              <img src="assets/img/EdwinTrejo.jpg" class="img-fluid rounded mb-3" alt="Edwin Trejo"
-                style="border-radius: 12px;">
+              <img src="assets/img/EdwinTrejo.jpg" class="img-fluid rounded mb-3 profile-photo" alt="Edwin Trejo">
               <h5 class="mb-1"><strong>Edwin Trejo</strong></h5>
-              <p class="text-muted mb-2">AI/ML Researcher · Software Engineer</p>
+              <p class="text-muted mb-2">Software Engineer · AI/ML Researcher</p>
               <p class="mb-0"><i class="bi bi-envelope"></i> ehtrejo9@outlook.com</p>
             </div>
 
@@ -114,9 +119,8 @@
             <div class="about-me">
               <h4>About Me</h4>
               <p>
-                I’m <strong>Edwin Trejo</strong>, a Graduate Machine Learning Researcher and M.S. Computer Science
-                candidate
-                at <strong>The University of Texas at El Paso</strong>, focused on <strong>Machine Learning</strong>,
+                I’m <strong>Edwin Trejo</strong>, a Software Engineer, Graduate AI Researcher, and M.S. Computer Science graduate
+                from <strong>The University of Texas at El Paso</strong>, focused on <strong>Machine Learning</strong>,
                 <strong>Optimization</strong>, and <strong>Artificial Intelligence</strong>.
               </p>
               <p>
@@ -235,11 +239,10 @@
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/spotify-repo.png" class="img-fluid" alt="">
+              <img src="assets/img/spotify-repo.png" class="img-fluid" alt="Spotify playlist automation GitHub repository">
               <div class="portfolio-info">
                 <h4>Spotify Playlist Automation App</h4>
-                <p>Web app that classifies songs by genre using ML models and automatically sorts Liked Songs into
-                  playlists using the Spotify API.</p>
+                <p>Self-hosted Flask app that analyzes a Spotify library with custom-trained audio (YAMNet + LightGBM) and lyrics ML models and auto-builds mood and genre playlists. Dockerized, 116 tests.</p>
                 <a href="assets/img/spotify-repo.png" title="Github repository" data-gallery="portfolio-gallery-app"
                   class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="https://github.com/Edwin-Trejo/Automated-playlist-creator" title="More Details"
@@ -248,10 +251,10 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cyber">
-              <img src="assets/img/Raspberrypi.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/Raspberrypi.jpeg" class="img-fluid" alt="Raspberry Pi Zero 2 W running Pi-hole">
               <div class="portfolio-info">
                 <h4>Network-wide ad blocker</h4>
-                <p>Network-wide ad blocker using Raspberry Pi Zero 2 W" + Pi-hole (DNS sinkhole) with custom blocklists
+                <p>Network-wide ad blocker using Raspberry Pi Zero 2 W + Pi-hole (DNS sinkhole) with custom blocklists
                   and monitoring.</p>
                 <a href="assets/img/Raspberrypi.jpeg" title="Raspberry Pi Zero 2 W"
                   data-gallery="portfolio-gallery-cyber" class="glightbox preview-link"><i
@@ -262,37 +265,85 @@
             </div> <!-- End Portfolio Item -->
             
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
-              <img src="assets\img\camping-companion-ss.png" class="img-fluid" alt="">
+              <img src="assets/img/camping-companion-ss.png" class="img-fluid" alt="Offline camping companion wiki screenshot">
               <div class="portfolio-info">
                 <h4>Portable Field Knowledge Server (Raspberry Pi)</h4>
                 <p>Designed and deployed an offline-first self-hosted knowledge server on Raspberry Pi Zero 2 W using Debian Linux, Nginx, and PHP-FPM.</p>
-                <a href="assets\img\camping-companion-ss.png" title="Camping companion wiki screenshot" data-gallery="portfolio-gallery-software" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/camping-companion-ss.png" title="Camping companion wiki screenshot" data-gallery="portfolio-gallery-software" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="https://github.com/Edwin-Trejo/offline-camp-companion" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div> <!-- End Portfolio Item -->
-            <!-- 
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-research">
-              <img src="assets/img/portfolio/research-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Thesis project image coming soon">
               <div class="portfolio-info">
-                <h4>HTTP Proxy Server with Caching</h4>
-                <p>Implemented a multithreaded HTTP proxy in Python supporting GET requests, caching with expiration, and concurrent connections using select().</p>
-                <a href="assets/img/portfolio/research-1.jpg" title="software 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Penalty-Based Constrained Optimization (M.S. Thesis)</h4>
+                <p>Hydropower release scheduling as a 75-constraint problem calibrated from 124,000+ hours of data (+$14.9k to $25.9k/day), with a from-scratch NumPy penalty framework benchmarked over 3,960 runs and integrated into LSTM training (-8.3% MSE).</p>
+                <a href="https://github.com/Edwin-Trejo/penalty-constrained-reservoir-optimization" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div>End Portfolio Item -->
-            <!--
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Dynamic Network Topology Generator</h4>
-                <p>Designed a JSON-driven Mininet environment to simulate network topologies for testing IDS performance and link behavior.</p>
-                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div> End Portfolio Item -->
+            </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
-              <img src="assets/img/website.png" class="img-fluid" alt="">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Project image coming soon">
+              <div class="portfolio-info">
+                <h4>SmartBoard: Visual Roadmap App</h4>
+                <p>Full-stack roadmap tracker (FastAPI, PostgreSQL, React/TypeScript) with an interactive node-graph canvas, derived task status, and an MCP server so an AI assistant can manage projects. Dockerized and self-hosted.</p>
+                <a href="https://github.com/Edwin-Trejo/Roadmap" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Project image coming soon">
+              <div class="portfolio-info">
+                <h4>Personal Budget Tracker</h4>
+                <p>Self-hosted finance app with a FastAPI REST API, JWT authentication, PostgreSQL, and a mobile-first React PWA, containerized with Docker Compose and tested with pytest.</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Project image coming soon">
+              <div class="portfolio-info">
+                <h4>Automated Video Clipping Pipeline</h4>
+                <p>Python pipeline that detects highlights in long videos from audio and transcript signals, cuts and captions 9:16 clips (ffmpeg, faster-whisper, OpenCV), and drafts captions with the Claude API. Runs unattended on a home server.</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cyber">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Project image coming soon">
+              <div class="portfolio-info">
+                <h4>Automated Plant Irrigation System</h4>
+                <p>Raspberry Pi Zero 2 W with a soil-moisture sensor over SPI, relay-isolated pump control, and a FastAPI/SQLite backend for readings.</p>
+                <a href="https://github.com/Edwin-Trejo/irrigation-system" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Project image coming soon">
+              <div class="portfolio-info">
+                <h4>DIY Aeroponic Grow System (ESP32)</h4>
+                <p>ESP32 cycle controller switching a 12 V pump through a logic-level-shifted relay, plus the plumbing and pressure debugging to get a low-pressure misting loop working.</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Project image coming soon">
+              <div class="portfolio-info">
+                <h4>Home Server Lab (Proxmox)</h4>
+                <p>Self-hosted Proxmox VE lab running LXC containers and Docker services, reachable privately over a Tailscale VPN with no public exposure.</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cyber">
+              <img src="assets/img/placeholder.svg" class="img-fluid" alt="Project image coming soon">
+              <div class="portfolio-info">
+                <h4>IDS for Cyber-Physical Systems</h4>
+                <p>Intrusion detection prototype for resource-constrained operational technology environments, comparing signature-based and behavioral approaches.</p>
+                <a href="https://github.com/Edwin-Trejo/IDS_on_CPS" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+              <img src="assets/img/website.png" class="img-fluid" alt="Screenshot of this portfolio website">
               <div class="portfolio-info">
                 <h4>Website portfolio</h4>
                 <p>This is the Github repository to my website portfolio, a space where I showcase my work.</p>
@@ -329,15 +380,11 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Summary</h3>
 
             <div class="resume-item pb-0">
               <h4>Edwin Trejo</h4>
-              <p><em>Graduate Research Assistant and M.S. Candidate in Computer Science at UTEP with hands-on experience
-                  in Cybersecurity, AI/ML, and network systems engineering. Former Cybersecurity & AI Engineering Intern
-                  at Sandia National Laboratories, specializing in intrusion detection, NLP pipelines, and scalable
-                  real-time systems. Passionate about designing intelligent, secure, and efficient solutions for complex
-                  data-driven environments.</em></p>
+              <p><em>M.S. Computer Science graduate (UTEP, May 2026) and Software Engineer at Q2, with research and hands-on experience in machine learning, constrained optimization, cybersecurity, and self-hosted systems. Former Cybersecurity & AI Engineering Intern at Sandia National Laboratories, working on intrusion detection, NLP pipelines, and scalable real-time systems. I like building intelligent, secure, and efficient systems end to end, from research code to deployed services.</em></p>
               <ul>
                 <li>El Paso, TX</li>
                 <li>ehtrejo9@outlook.com</li>
@@ -347,10 +394,9 @@
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h3>Master of Science in Computer Science</h3>
-              <h5>August 2024 - Expected may 2026</h5>
+              <h5>August 2024 - May 2026</h5>
               <p><em>The University of Texas at El Paso</em></p>
-              <p>Master of Science in Computer Science with Certification in Cybersecurity. Currently doing research on
-                Machine Learning architectures.</p>
+              <p>Master of Science in Computer Science with Certification in Cybersecurity. Thesis: Penalty Approach to Constrained Optimization Problems in Water Reservoir and Energy Generation Management.</p>
             </div><!-- Edn Resume Item -->
 
             <div class="resume-item">
@@ -365,7 +411,7 @@
             <div class="resume-item">
               <h3>Mentor - Google Developer Groups</h3>
               <h5>August 2025 - Present</h5>
-              <p>Contributed to the computer science community by mentoring 1–3 students, providing guidance on core
+              <p>Contributed to the computer science community by mentoring 2 students, providing guidance on core
                 computer science concepts, professional development support, and career readiness tips while fostering
                 their growth through knowledge-sharing.</p>
             </div><!-- Edn Resume Item -->
@@ -377,18 +423,53 @@
                 contributing by helping peers with exercises and sharing knowledge in cybersecurity.</p>
             </div><!-- Edn Resume Item -->
 
+            <h3 class="resume-title">More Projects</h3>
+            <div class="resume-item">
+              <h3>Networking &amp; Security Coursework</h3>
+              <ul>
+                <li>Custom firewall with a POX OpenFlow controller on a Mininet topology (Apr 2025).</li>
+                <li>Multithreaded Python HTTP proxy server with caching and expiration (Mar 2025).</li>
+                <li>ARP poisoning, spoofing, and MITM labs with scapy and Wireshark, evaluating IDS rule coverage (Feb 2025).</li>
+                <li>JSON-driven Mininet topology generator for testing IDS performance.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h3>Side Projects</h3>
+              <ul>
+                <li>Early-stage iOS app startup with a friend, currently scoping a first product in Swift.</li>
+                <li>Hydropower system simulation and offline field knowledge server (see Portfolio).</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h3>AI/ML Researcher – UTEP</h3>
-              <h5>August 2025 - Present</h5>
+              <h3>Software Engineer – Q2 (Innovation Studio)</h3>
+              <h5>June 2026 - Present</h5>
+              <p><em>Austin, TX</em></p>
+              <ul>
+                <li>Guide partner financial institutions through the developer platform's onboarding pipeline: validate SDK and API integrations and review partner extension code for misuse and security issues ahead of experimental deployment and production release.</li>
+                <li>Diagnose integration issues in experimental and production environments by reviewing partner code and configuration against SDK/API specifications, reproducing reported problems, and running working sessions with partner engineering teams.</li>
+                <li>Manage the mobile release pipeline for partner-branded iOS and Android apps, from build review through App Store and Google Play publishing.</li>
+                <li>Building a Python onboarding-automation tool that picks the correct integration path per partner (SDK-only, SDK plus mobile, or API-only), and replaced a hardcoded production-only integration with a JSON-configurable sandbox/production switch.</li>
+                <li>Building a support-ticket knowledge base on an internal Claude-based chat: a custom skill connects it over MCP to ticketing, documentation, and source-control systems to log what worked for each ticket and retrieve relevant past cases.</li>
+                <li>Technical point of contact for 5+ partner financial institutions after launch.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h3>Graduate AI Researcher – UTEP</h3>
+              <h5>April 2024 - May 2026</h5>
               <p><em>El Paso, TX</em></p>
               <ul>
-                <li>Conducting research on penalty based constrained optimization methods for water reservoir and hybrid energy generation management, studying how different optimizers affect convergence behavior, stability, and feasibility under operational constraints.</li>
-                <li>Designing and evaluating machine learning driven optimization frameworks using Python, TensorFlow, and scikit-learn, integrating time series forecasting models such as LSTM within constraint aware decision systems applied to real world hydropower datasets.</li>
-                <li>Investigating hybrid floating solar and hydropower integration at Elephant Butte Reservoir, developing optimization driven strategies to improve reservoir release scheduling, energy efficiency, and sustainable resource management.</li>
+                <li>Worked with a cross-disciplinary team of civil engineers on penalty-based constrained optimization for hydropower reservoir and energy systems, a novel problem with no prior published approach to benchmark against.</li>
+                <li>Formulated 24-hour hydropower release scheduling as a 75-constraint problem calibrated from 124,000+ hours of operational data and 219,000 hourly evaporation records, finding peak-shifting schedules worth $14,900–$25,900/day in added revenue (under a simplified market price model) while satisfying all constraints.</li>
+                <li>Built a from-scratch NumPy benchmarking framework (four penalty-update strategies, three of my own design, with L1/L2 penalties and Adam/SGD/AdamW; 3,960 runs) on 33 constrained problems with known optima (CEC 2006, Numerica, Hock-Schittkowski), finding L1 penalties most effective on inequality constraints; also tested with PyTorch and TensorFlow optimizers.</li>
+                <li>Integrated penalty-based constraint enforcement into the training loss of a DOF-LSTM reservoir forecasting model; a progressive penalty schedule cut forecasting error (MSE) by 8.3% and constraint-violation severity by 17% versus unconstrained training.</li>
+                <li>Investigated hybrid floating solar and hydropower integration at Elephant Butte Reservoir; earlier contributed a C#/Unity3D front end for interactive visualization of ANSYS simulation results.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -406,16 +487,6 @@
                 <li>Created C++ scripts to receive UDP packets and evaluate payloads against custom rule sets,
                   triggering alerts based on anomalies; simulated backplane traffic using pcap replays in VMware + WSL
                   environments.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h3>Graduate Research Assistant – UTEP</h3>
-              <h5>April 2024 - August 2024</h5>
-              <p><em>El Paso, TX</em></p>
-              <ul>
-                <li>Contributed in the development of a C# application with Unity3D implementing the front-end to enable
-                  interactive visualization of ANSYS simulation results and enhancing risk assessment workflows.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -519,8 +590,7 @@
                 <h3>Machine Learning & AI</h3>
               </span>
               <p>I apply machine learning methods for tasks such as time-series forecasting, anomaly detection, and
-                natural language processing. Most of my work involves Python-based frameworks like PyTorch, TensorFlow,
-                and scikit-learn, emphasizing efficient, interpretable, and deployable models.</p>
+                natural language processing. My work uses Python frameworks like PyTorch, TensorFlow, scikit-learn, LightGBM, and ONNX Runtime, emphasizing efficient, interpretable, and deployable models, including LLM integrations and MCP tool servers.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -537,6 +607,43 @@
                 decision-making in energy, environmental, and security applications.</p>
             </div>
           </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-braces"></i>
+              </div>
+              <span class="stretched-link">
+                <h3>Full-Stack Development</h3>
+              </span>
+              <p>I build and ship REST APIs and web apps with FastAPI, Flask, React, TypeScript, and PostgreSQL, using pytest and Vitest for testing and SQLAlchemy/Alembic for schema management.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-hdd-network"></i>
+              </div>
+              <span class="stretched-link">
+                <h3>Infrastructure &amp; Self-Hosting</h3>
+              </span>
+              <p>I run a Proxmox home lab with LXC and Docker Compose services, systemd, Nginx, and Tailscale for private remote access, deploying my own projects end to end.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-motherboard"></i>
+              </div>
+              <span class="stretched-link">
+                <h3>Embedded &amp; IoT</h3>
+              </span>
+              <p>I prototype hardware-to-software systems on Raspberry Pi and ESP32, from sensor interfaces and relay control to network-connected dashboards.</p>
+            </div>
+          </div><!-- End Service Item -->
+
 
 
 
@@ -569,7 +676,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>

@@ -1640,3 +1640,8 @@ section,
 .skill-mf p {
   text-align: center;
 }
+
+/* Profile photo (moved from inline style for CSP) */
+.profile-photo {
+  border-radius: 12px;
+}
